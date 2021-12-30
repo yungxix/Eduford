@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale= 1.0" charset="utf-8" >
+    <title>ACMD Academy</title>
+    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+     <section class="sub-header">
+    <nav>
+      <a href="#"><img src="./img/logo.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Curiculum</a></li>
+          <li><a href="">Excursions</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+     <h1>About Us</h1>
+     </section>
+
+
+      <!---About us ---->
+      <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the World'd largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, asperiores obcaecati? Necessitatibus
+                iure cumque officiis assumenda porro,libero consequatur temporibus doloribus quas
+                 illo ipsam delectus repudiandae tempore non omnis nemo.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error provident tempora, temporibus maiores, saepe sunt corporis veniam,
+                 doloremque rerum eius possimus consequatur sint excepturi ullam iure qui cumque officiis nam.</p>
+                 <a href="" class="btn  red-btn">Explore Our Campus</a>
+            </div>
+            <div class="about-col">
+                <img src="./img/about.jpg" alt="">
+            </div>
+        </div>
+
+      </section>
+
+    
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+     <!--- Footer---->
+     <section class="footer">
+       <h4>ABOUT US</h4>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur enim hic optio perferendis voluptatibus <br>
+          animi aliquid harum deleniti soluta itaque. Dicta similique suscipit ipsa nisi labore tempora deleniti, <br> eveniet repellat itaque quo, dolorem recusandae sunt eius dolorum unde iste quisquam.
+          Ab magnam dignissimos odit, ipsum illo adipisci dolorum itaque cumque?</p>
+          <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+          <p>@copy ACME Academy 2021 </p>
+
+     </section>
+
+
+     <script>
+    /* Toggle function */    
+
+       let navLinks = document.getElementById("navLinks");
+         
+       function showMenu(){
+         navLinks.style.right = "0";
+       }
+       function hideMenu(){
+         navLinks.style.right = "-200px";
+       }
+     </script>
+  </body>
+</html>

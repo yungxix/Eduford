@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale= 1.0" charset="utf-8" >
+    <title>ACMD Academy</title>
+    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+     <section class="sub-header">
+    <nav>
+      <a href="#"><img src="./img/logo.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Curiculum</a></li>
+          <li><a href="">Excursions</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+     <h1>Our Courses</h1>
+     </section>
+   
+
+     <!---- Course Section-->
+     <section class="course">
+         
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ex voluptatem culpa doloribus ratione magni repudiandae ipsum, debitis cum repellendus sequi.
+        </p>
+  
+        <div class="row">
+          <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum suscipit nulla amet animi explicabo quos inventore sint excepturi, delectus obcaecati doloribus consequatur officia, reprehenderit quis, eaque tempore vitae
+              !</p>
+          </div>
+          <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum suscipit nulla amet animi explicabo quos inventore sint excepturi, delectus obcaecati doloribus consequatur officia, reprehenderit quis, eaque tempore vitae
+              .</p>
+          </div>
+          <div class="course-col">
+            <h3>Post Graduate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum suscipit nulla amet animi explicabo quos inventore sint excepturi, delectus obcaecati doloribus consequatur officia, reprehenderit quis, eaque tempore vitae
+              .</p>
+          </div>
+  
+        </div>
+  
+       </section>
+
+
+       <!---Facilities----->
+ <section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus odit quos veritatis. Culpa nam delectus dolor.
+       Fugit accusamus impedit nobis!</p>
+   <div class="row">
+     <div class="facilities-col">
+       <img src="./img/library.png" alt="">
+       <h3>World Class Library</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+          iure tenetur nihil omnis excepturi explicabo veniam ab dignissimos nulla numquam.</p>
+     </div>
+     <div class="facilities-col">
+       <img src="./img/basketball.png" alt="">
+       <h3>Entrigue Playground</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+          iure tenetur nihil omnis excepturi explicabo veniam ab dignissimos nulla numquam.</p>
+     </div>
+     <div class="facilities-col">
+       <img src="./img/cafeteria.png" alt="">
+       <h3>Awesome Canteen</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+          iure tenetur nihil omnis excepturi explicabo veniam ab dignissimos nulla numquam.</p>
+     </div>
+   </div>
+  </section>
+    
+
+
+     <!--- Footer---->
+     <section class="footer">
+       <h4>ABOUT US</h4>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur enim hic optio perferendis voluptatibus <br>
+          animi aliquid harum deleniti soluta itaque. Dicta similique suscipit ipsa nisi labore tempora deleniti, <br> eveniet repellat itaque quo, dolorem recusandae sunt eius dolorum unde iste quisquam.
+          Ab magnam dignissimos odit, ipsum illo adipisci dolorum itaque cumque?</p>
+          <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+          <p>@copy ACME Academy 2021 </p>
+
+     </section>
+
+
+     <script>
+    /* Toggle function */    
+
+       let navLinks = document.getElementById("navLinks");
+         
+       function showMenu(){
+         navLinks.style.right = "0";
+       }
+       function hideMenu(){
+         navLinks.style.right = "-200px";
+       }
+     </script>
+  </body>
+</html>

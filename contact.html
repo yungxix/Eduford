@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale= 1.0" charset="utf-8" >
+    <title>ACMD Academy</title>
+    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+     <section class="sub-header">
+    <nav>
+      <a href="#"><img src="./img/logo.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Curiculum</a></li>
+          <li><a href="">Excursions</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+     <h1>Contact Us</h1>
+     </section>
+
+
+    <!----Contact Us---->
+  <section class="location">
+      
+    <iframe src="https://www.google.com/maps/embed?
+    pb=!1m18!1m12!1m3!1d3963.082068988485!2d3.3864326647066485!3d6.636729973678025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+    1!3m3!1m2!1s0x0%3A0x6813f2f44ef5333b!2sCitacad%20Schools!5e0!3m2!1sen!2sng!4v1617404087068!5m2!1sen!2sng"
+     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+
+  </section>
+
+  <section class="contact-us">
+
+   <div class="row">
+       <div class="contact-col">
+           <div>
+             <i class="fa fa-home"></i>
+    <span>
+        <h5>Ajayi Crescent, Off Lawan Close.</h5>
+       <p>Magodo Ojodu berger Lagos</p>
+    </span>
+      </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h5>+234 70912389</h5>
+                <p> Monday to Saturday, 10Am to 6PM </p>
+            </span>
+        </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <span>
+                <h5>info@Eduschool.com</h5>
+                <p> Send Us a Mail Today!</p>
+            </span>
+        </div>
+       </div>
+
+       <div class="contact-col">
+            
+         <form action="form-handler.php" method="post" >
+             <input type="text"  name="name" placeholder="Enter your name" required>
+             <input type="email" name="email" placeholder="Enter your email" required>
+             <input type="text" name="text"  placeholder="Enter your Subject" required>
+             <textarea  rows="10"  name="message" placeholder="Leave A Message" required></textarea>
+             <button class="btn red-btn">Send Message</button>
+         </form>
+       </div>
+   </div>
+  </section>
+
+
+
+     <!--- Footer---->
+     <section class="footer">
+       <h4>ABOUT US</h4>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur enim hic optio perferendis voluptatibus <br>
+          animi aliquid harum deleniti soluta itaque. Dicta similique suscipit ipsa nisi labore tempora deleniti, <br> eveniet repellat itaque quo, dolorem recusandae sunt eius dolorum unde iste quisquam.
+          Ab magnam dignissimos odit, ipsum illo adipisci dolorum itaque cumque?</p>
+          <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+          <p>@copy ACME Academy 2021 </p>
+
+     </section>
+
+
+     <script>
+    /* Toggle function */    
+
+       let navLinks = document.getElementById("navLinks");
+         
+       function showMenu(){
+         navLinks.style.right = "0";
+       }
+       function hideMenu(){
+         navLinks.style.right = "-200px";
+       }
+     </script>
+  </body>
+</html>
